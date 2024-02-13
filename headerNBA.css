@@ -1,0 +1,58 @@
+/* Reset CSS */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ .header {
+   background-color: #000000; /* Colore di sfondo di esempio */
+   padding: 10px 20px;
+   
+ }
+ 
+ .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .logo {
+   width: 120px;
+   cursor: pointer;
+ }
+ 
+ .menu-icon {
+   width: 30px;
+   cursor: pointer;
+ }
+ 
+ .nav__list {
+   list-style: none;
+ }
+ 
+ .nav__list li {
+   display: inline-block;
+   margin-left: 50px;
+ }
+ 
+ .nav__list li:first-child {
+   margin-left: 0;
+ }
+ 
+ .nav__list li a {
+   text-decoration: none;
+   color: white;
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif; /* Usa il font Montserrat */
+   font-weight: bold; /* Cambia lo spessore del carattere */
+   text-transform: uppercase; /* Trasforma il testo in maiuscolo */
+   letter-spacing: 1px; /* Regola lo spaziamento tra le lettere */
+   transition: color 0.3s; /* Aggiunge una transizione per un effetto fluido */
+ }
+ 
+ /* Cambia il colore in rosso al passaggio del mouse */
+ .nav__list li a:hover {
+   color: red;
+ }
+ 
